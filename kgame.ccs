@@ -1,0 +1,34 @@
+<Solution>
+  <PropertyGroup Name="kgame" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="bg">
+          <Image Name="bg.jpg" />
+          <Image Name="mainBg1.png" />
+          <Image Name="mainBg2.png" />
+          <Image Name="mainBg3.png" />
+        </Folder>
+        <Folder Name="common">
+          <Folder Name="button">
+            <Image Name="backbtn-a.png" />
+            <Image Name="backbtn-d.png" />
+            <Image Name="btn-a.png" />
+            <Image Name="btn-d.png" />
+            <Image Name="btn-show-a.png" />
+            <Image Name="btn-show-d.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="csb">
+          <Project Name="loadScene.csd" Type="Layer" />
+          <Project Name="mainScene.csd" Type="Layer" />
+          <Project Name="battleScene.csd" Type="Scene3D" />
+        </Folder>
+        <Folder Name="font">
+          <TTF Name="DFYuanW7-GB2312.ttf" />
+        </Folder>
+        <Folder Name="ui" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

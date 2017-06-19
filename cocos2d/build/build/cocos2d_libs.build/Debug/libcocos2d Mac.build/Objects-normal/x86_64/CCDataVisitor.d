@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/platform/mac/cocos2d-prefix.pch \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/cocos/base/CCDataVisitor.cpp \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/base/CCRef.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/platform/CCPlatformMacros.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/base/ccConfig.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/platform/CCPlatformConfig.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/platform/CCPlatformDefine.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/platform/mac/CCPlatformDefine-mac.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/deprecated/CCBool.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/base/CCDataVisitor.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/deprecated/CCInteger.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/base/CCConsole.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/base/ccMacros.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/platform/CCStdC.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/platform/mac/CCStdC-mac.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/base/ccRandom.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/platform/CCCommon.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/deprecated/CCFloat.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/deprecated/CCDouble.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/deprecated/CCString.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/deprecated/CCArray.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/base/ccCArray.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/deprecated/CCDictionary.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/base/uthash.h \
+  /Users/xiacg/Desktop/project/kgame/cocos2d/build/../cocos/deprecated/CCSet.h
