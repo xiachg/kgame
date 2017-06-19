@@ -2,11 +2,6 @@
 #include "BaseScene.h"
 #include "kLoadScene.h"
 
-
-/*
-    Test github
- */
-
 USING_NS_CC;
 
 AppDelegate::AppDelegate()
