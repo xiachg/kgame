@@ -172,6 +172,7 @@
 		77DA39DB1EF77285005919BB /* GameDataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDataUtils.h; sourceTree = "<group>"; };
 		77DA3A0D1EF78DDE005919BB /* kMainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kMainScene.cpp; sourceTree = "<group>"; };
 		77DA3A0E1EF78DDE005919BB /* kMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kMainScene.h; sourceTree = "<group>"; };
+		77DF031B1EF8C2FE003D8EC7 /* BaseExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseExport.h; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -388,6 +389,7 @@
 				77DA39C41EF77285005919BB /* configure */,
 				77DA39C91EF77285005919BB /* macros */,
 				77DA39D91EF77285005919BB /* tool */,
+				77DF031B1EF8C2FE003D8EC7 /* BaseExport.h */,
 			);
 			path = base;
 			sourceTree = "<group>";
