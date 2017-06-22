@@ -17,7 +17,6 @@ public:
     kBattleScene();
     ~kBattleScene();
 public:
-    bool init(Ref* pSender);
     GAME_CREATE_COMMON_LAYER(kBattleScene);
     
 };
