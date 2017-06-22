@@ -22,7 +22,8 @@ enum SceneTag
 	SCENE_TestLayer,
 	SCENE_NULL = 200,
     SCENE_kLoadScene,
-    SCENE_kMianScene
+    SCENE_kMianScene,
+    SCENE_kBattleScene
 };
 
 enum PanelName

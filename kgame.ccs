@@ -22,7 +22,7 @@
         <Folder Name="csb">
           <Project Name="loadScene.csd" Type="Layer" />
           <Project Name="mainScene.csd" Type="Layer" />
-          <Project Name="battleScene.csd" Type="Scene3D" />
+          <Project Name="battleScene.csd" Type="Layer" />
         </Folder>
         <Folder Name="font">
           <TTF Name="DFYuanW7-GB2312.ttf" />

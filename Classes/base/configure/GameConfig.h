@@ -24,5 +24,6 @@ public:
 /*－－－－－－－－－－游戏中的csb文件的路径配置－－－－－－－－－－－－－－－－－－－－－*/
     static const char* kLoadScene_Csb;
     static const char* kMainScene_Csb;
+    static const char* kBattleScene_Csb;
 };
 

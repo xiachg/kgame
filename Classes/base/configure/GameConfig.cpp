@@ -12,3 +12,4 @@ const float GameConfig::FONT_SIZE_TITLE = 40.0f;
 
 const char* GameConfig::kLoadScene_Csb = "csb/loadScene.csb";
 const char* GameConfig::kMainScene_Csb = "csb/mainScene.csb";
+const char* GameConfig::kBattleScene_Csb = "csb/battleScene.csb";

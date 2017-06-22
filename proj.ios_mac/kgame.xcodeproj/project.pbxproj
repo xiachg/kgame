@@ -51,6 +51,7 @@
 		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
+		77698FA81EFB8BD900FFEA85 /* kBattleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77698FA61EFB8BD900FFEA85 /* kBattleScene.cpp */; };
 		77DA39AD1EF770E1005919BB /* kLoadScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DA39AB1EF770E1005919BB /* kLoadScene.cpp */; };
 		77DA39F51EF77286005919BB /* BaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DA39B81EF77285005919BB /* BaseLayer.cpp */; };
 		77DA39F61EF77286005919BB /* BasePanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DA39BA1EF77285005919BB /* BasePanel.cpp */; };
@@ -149,6 +150,8 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		77698FA61EFB8BD900FFEA85 /* kBattleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kBattleScene.cpp; sourceTree = "<group>"; };
+		77698FA71EFB8BD900FFEA85 /* kBattleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kBattleScene.h; sourceTree = "<group>"; };
 		77DA39AB1EF770E1005919BB /* kLoadScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kLoadScene.cpp; sourceTree = "<group>"; };
 		77DA39AC1EF770E1005919BB /* kLoadScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kLoadScene.h; sourceTree = "<group>"; };
 		77DA39B81EF77285005919BB /* BaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseLayer.cpp; sourceTree = "<group>"; };
@@ -314,6 +317,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				77698FA51EFB8BC500FFEA85 /* gameBattle */,
 				77DA39B61EF77285005919BB /* base */,
 				77DA39AA1EF770AF005919BB /* gameScene */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
@@ -369,6 +373,15 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		77698FA51EFB8BC500FFEA85 /* gameBattle */ = {
+			isa = PBXGroup;
+			children = (
+				77698FA61EFB8BD900FFEA85 /* kBattleScene.cpp */,
+				77698FA71EFB8BD900FFEA85 /* kBattleScene.h */,
+			);
+			path = gameBattle;
+			sourceTree = "<group>";
 		};
 		77DA39AA1EF770AF005919BB /* gameScene */ = {
 			isa = PBXGroup;
@@ -494,6 +507,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 759EEX35AR;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "kgame" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -589,6 +607,7 @@
 				77DA39FA1EF77286005919BB /* GameConfig.cpp in Sources */,
 				77DA3A0F1EF78DDE005919BB /* kMainScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				77698FA81EFB8BD900FFEA85 /* kBattleScene.cpp in Sources */,
 				77DA39F51EF77286005919BB /* BaseLayer.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				77DA39AD1EF770E1005919BB /* kLoadScene.cpp in Sources */,
@@ -630,6 +649,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = 759EEX35AR;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -667,6 +687,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = 759EEX35AR;
 				ENABLE_BITCODE = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

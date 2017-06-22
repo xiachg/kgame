@@ -25,15 +25,5 @@
         <LastRunType Value="Mac" />
       </Value>
     </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="csb/loadScene.csd" />
-          <FilePathData Path="csb/mainScene.csd" />
-          <FilePathData Path="csb/battleScene.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="csb/battleScene.csd" />
-      </Value>
-    </Item>
   </Properties>
 </UserData>

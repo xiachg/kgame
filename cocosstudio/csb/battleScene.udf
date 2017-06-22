@@ -1,10 +1,7 @@
 <UserData Version="3.10.0.0">
   <Properties>
-    <Item Key="CameraData">
-      <Value ctype="CameraData">
-        <Position X="249.6317" Y="164.6288" Z="230.5223" />
-        <Rotation X="-30.0000" Y="45.0000" />
-      </Value>
+    <Item Key="GuidesList">
+      <Value ctype="GuidesData" />
     </Item>
   </Properties>
 </UserData>
