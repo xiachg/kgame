@@ -6,6 +6,8 @@
 
 #include "kMainScene.h"
 #include "GameConfig.h"
+#include "BaseScene.h"
+#include "kBattleScene.h"
 
 kMianScene::kMianScene()
 {
@@ -24,5 +26,13 @@ bool kMianScene::init(Ref* pSender)
     auto mainPanel = CSLoader::createNode(GameConfig::kMainScene_Csb);
     m_mainWidget->addChild(mainPanel);
     
+    SET_BUTTON_FUNC2(dynamic_cast<Button*>(mainPanel->getChildByName("root")->getChildByName("bg1")->getChildByName("battleIcon")),kMianScene::btnCallback);
+    
     return true;
+}
+
+void kMianScene::btnCallback(Ref* pSender, Widget::TouchEventType type)
+{
+    if(type != Widget::TouchEventType::ENDED) return;
+    BaseScene::getInstance()->setCurrentScene(kBattleScene::createScene(),REPLACE_SCENE);
 }

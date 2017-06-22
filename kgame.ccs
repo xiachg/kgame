@@ -4,6 +4,7 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Folder Name="bg">
+          <Image Name="battleBg.jpg" />
           <Image Name="bg.jpg" />
           <Image Name="mainBg1.png" />
           <Image Name="mainBg2.png" />
@@ -27,7 +28,12 @@
         <Folder Name="font">
           <TTF Name="DFYuanW7-GB2312.ttf" />
         </Folder>
-        <Folder Name="ui" />
+        <Folder Name="ui">
+          <Folder Name="mainScene">
+            <Image Name="battle_icon.png" />
+            <Image Name="battle_name.png" />
+          </Folder>
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>

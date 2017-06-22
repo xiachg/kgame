@@ -6,6 +6,7 @@
 #include "kLoadScene.h"
 #include "kMainScene.h"
 #include "BaseScene.h"
+#include "GameConfig.h"
 
 kLoadScene::kLoadScene()
 {

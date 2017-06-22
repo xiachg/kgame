@@ -7,7 +7,7 @@
 #define kLoadScene_h
 
 #include "BaseLayer.h"
-#include "GameConfig.h"
+
 
 class kLoadScene:public BaseLayer
 {

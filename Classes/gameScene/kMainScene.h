@@ -17,6 +17,8 @@ public:
     kMianScene();
     ~kMianScene();
     GAME_CREATE_COMMON_LAYER(kMianScene);
+private:
+    void btnCallback(Ref* pSender, Widget::TouchEventType type);
 };
 
 #endif /* kMainScene_h */

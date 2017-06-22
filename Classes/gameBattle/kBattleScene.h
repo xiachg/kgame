@@ -1,10 +1,7 @@
 //
 //  kBattleScene.hpp
 //  kgame
-//
 //  Created by  xiacg on 2017/6/22.
-//
-//
 
 #ifndef kBattleScene_h
 #define kBattleScene_h
@@ -18,7 +15,6 @@ public:
     ~kBattleScene();
 public:
     GAME_CREATE_COMMON_LAYER(kBattleScene);
-    
 };
 
 #endif /* kBattleScene_hpp */
